@@ -1,0 +1,38 @@
+/* اللون البرتقالي للنص */
+.text-orange-400 {
+  color: #ff944d;
+}
+
+/* زر القسم المحدد */
+.category-btn.active {
+  background-color: #ff944d;
+  color: #1a202c;
+}
+
+/* زر الشريط السفلي المحدد */
+.nav-bottom-btn.active {
+  color: #ff944d;
+}
+
+/* زر إضافة المنتج */
+.product-card a {
+  background-color: #ff944d;
+  color: #1a202c;
+  padding: 8px 14px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.product-card a:hover {
+  background-color: #d97706;
+}
+
+/* مشطوب السعر القديم */
+.old-price {
+  text-decoration: line-through;
+  color: #aaa;
+}
