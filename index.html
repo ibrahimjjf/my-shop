@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>حانوتك - متجر إلكتروني</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- العنوان -->
+  <header class="p-5 text-center">
+    <h1 class="text-3xl font-bold mb-2 text-orange-400 animate-pulse">مرحبا لعزيز، حانوت حانوتك 🔥</h1>
+    <p class="text-gray-300">اختار القسم وشوف المنتجات</p>
+  </header>
+
+  <!-- الأقسام (الأزرار) -->
+  <nav id="nav-categories" class="flex justify-around bg-gray-800 p-3 rounded-md max-w-md mx-auto mb-5">
+    <button data-cat="games" class="category-btn px-3 py-2 rounded text-orange-400 font-semibold hover:bg-orange-600">🎮 الألعاب</button>
+    <button data-cat="devices" class="category-btn px-3 py-2 rounded text-orange-400 font-semibold hover:bg-orange-600">💻 الأجهزة</button>
+    <button data-cat="phones" class="category-btn px-3 py-2 rounded text-orange-400 font-semibold hover:bg-orange-600">📱 الهواتف</button>
+    <button data-cat="accessories" class="category-btn px-3 py-2 rounded text-orange-400 font-semibold hover:bg-orange-600">🧩 الإكسسوارات</button>
+  </nav>
+
+  <!-- عرض المنتجات -->
+  <main id="products-container" class="max-w-md mx-auto">
+
+    <!-- المنتجات سوف تظهر هنا بواسطة JS -->
+
+  </main>
+
+  <!-- شريط التنقل السفلي -->
+  <nav class="fixed bottom-0 left-0 right-0 bg-gray-800 flex justify-around text-orange-400 py-3 text-sm font-semibold max-w-md mx-auto rounded-t-md">
+    <button class="nav-bottom-btn active" data-page="boutique">🏪 بوتيك</button>
+    <button class="nav-bottom-btn" data-page="categories">📂 أقسام</button>
+    <button class="nav-bottom-btn" data-page="cart">🛒 سلة</button>
+    <button class="nav-bottom-btn" data-page="account">👤 حسابي</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
